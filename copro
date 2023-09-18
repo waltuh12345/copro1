@@ -1,4 +1,5 @@
-string Name, Age, Department;
+
+ string Name, Age, Department;
             char Gender;
 
             double HRate, HWork, TEarnings;
