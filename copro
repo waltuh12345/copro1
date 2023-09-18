@@ -1,0 +1,27 @@
+string Name, Age, Department;
+            char Gender;
+
+            double HRate, HWork, TEarnings;
+
+            Console.WriteLine("Enter Name: ");
+            Name = Console.ReadLine();
+            Console.WriteLine("Enter age: ");
+            Age = Console.ReadLine();
+            Console.WriteLine("Enter Gender [M/F]: ");
+            Gender = Convert.ToChar(Console.ReadLine());
+            Console.Write("Enter Department: ");
+            Department = Console.ReadLine();
+            Console.Write("Enter hourly rate: ");
+            HRate = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter Hours work: ");
+            HWork = Convert.ToDouble(Console.ReadLine());
+
+            TEarnings = HRate * HWork;
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("Name: " + Name);
+            Console.WriteLine("Age: " + Age);
+            Console.WriteLine("The total earnings is: " + TEarnings);
+
+            Console.ReadLine();
